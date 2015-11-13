@@ -1,8 +1,8 @@
-let someConstant = "I am forever constant"
-//var - variable, let - constant
-someConstant = "lets modify it"
-//errors come 
+import Cocoa
 
 
+let formatter = NSDateFormatter()
+formatter.locale = NSLocale.currentLocale();
+formatter.dateFormat = "MM/dd/yyyy"
 
-
+var newFormatter = NSDateFormatter()
