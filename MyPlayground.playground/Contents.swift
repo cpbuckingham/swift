@@ -5,13 +5,14 @@ for i = 0; i < 10; ++i{
     i
 }
 
-i
 
-if i < 10 {
-    print("yes it is")
-    
-}else if(i < 20){
-    print("Yes it is less than 20")
-    
+switch i {
+case 1,2,3:
+    print("It was low")
+case 8:
+    print("It was 8")
+case 9,10:
+    print("It was 9,10")
+default:
+    print("It was none of the above")
 }
-
