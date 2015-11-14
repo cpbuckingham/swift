@@ -1,15 +1,17 @@
 
-let count = 3_000_000
+//tupal - it has a list of things
+
+let somePoint = (2,0)
 
 
-switch count {
-case 1,2,3:
-    print("It was low")
-case 8:
+switch somePoint {
+case (let x,let y):
+    print("It was low \(x) \(y)")
+case (0,1):
     print("It was 8")
-case 9,10:
+case (_,0):
     print("It was 9,10")
-case 2_000_000...4_000_000:
+case (-2...2, -2...2):
     print("it was between")
 default:
     print("It was none of the above")
