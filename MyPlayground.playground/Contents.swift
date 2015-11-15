@@ -8,3 +8,16 @@ stringArray.append("you")
 stringArray
 stringArray.insert("its", atIndex: 0)
 stringArray
+
+for word in stringArray{
+    print(word)
+}
+stringArray.removeAtIndex((3))
+
+stringArray
+
+stringArray[1...3]
+
+for num in 1...3{
+    print(num)
+}
