@@ -1,8 +1,11 @@
-var someInt:[Int]=[]
+//dictionary = sets
 
-someInt.append(3)
-someInt.count
-someInt=[]
-someInt.count
+var airports:Dictionary<String, String> = ["EWR":"Neward", "JFK":"John F Kennedy"]
 
+var airportz = ["EWR":"Neward", "JFK":"John F Kennedy"]
+
+airportz["PHL"] = "Philidelphia"
+
+airportz.updateValue("John F Kennedy Terminal", forKey: "JFK")
+airportz
 
