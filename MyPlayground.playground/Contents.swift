@@ -18,3 +18,11 @@ else{
 //airportz["PHL"] = nil
 airportz.removeValueForKey("PHL")
 airportz
+
+for (airportCode, airport) in airportz{
+    print("code: \(airportCode) Airpor: \(airport)")
+}
+Array(airportz.keys)
+Array(airportz.values)
+airportz = [:]
+
